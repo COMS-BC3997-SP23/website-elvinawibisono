@@ -2,41 +2,16 @@
 title: Project
 ---
 
-Hello 
+<img src="logo-removebg-preview.png" width="217"/>
+<img src="https://www.mouser.com/images/marketingid/2019/img/194283798.png?v=080222.0300" width="217"/>
 
-A really basic theme for Jekyll, using the official Jekyll theme implementation.
+## About
 
-- [Fork on GitHub](https://github.com/daviddarnes/garth)
-- [Install Garth](https://github.com/daviddarnes/garth#installation)
+This project aims to push the boundaries of computer vision in miniature robots using the Petoi Bittle as a testbed. While computer vision has been extensively studied in larger robots, it remains relatively unexplored in small-scale robotics. By implementing computer vision algorithms such as object classification, obstacle avoidance, and face detection, we aim to evaluate the capabilities of the MU Vision Sensor 3 and other limited-capacity cameras for performing these tasks. If successful, we will explore the possibility of introducing a "hide and seek" feature to the robot, which would require it to execute multiple algorithms simultaneously. This project has the potential to advance our understanding of computer vision in robotics and may lead to new possibilities for miniature robot applications.
 
-[<img src="https://cdn.buymeacoffee.com/buttons/default-yellow.png" width="217"/>](https://buymeacoffee.com/daviddarnes#support)
+## Rough Approach towards the project:
 
-## Installation
+1. Bittle can be able to identify obstacles/objects (for example, as bittle is walking and find obstacles it will stop and sit down) 
+2. Bittle can perform obstacle avoidance (for example, as bittle is walking it is able to determine to go over obstacles) 
+3. Bittle can also perform face detection 
 
-### As a Jekyll theme
-
-1. Add `gem "garth-jekyll-theme"` to your `Gemfile` to add the theme as a dependancy
-2. Run the command `bundle install` in the root of project to install the theme and its dependancies
-3. Add `theme: garth-jekyll-theme` to your `_config.yml` file to set the site theme
-4. Run `bundle exec jekyll serve` to build and serve your site
-5. Done! Use the example [`_config.yml`](https://github.com/daviddarnes/garth/blob/master/_config.yml) file to set site-wide options
-
-### As a GitHub Pages remote theme
-
-1. Add `gem "jekyll-remote-theme"` to your `Gemfile` to add the theme as a dependancy
-2. Run the command `bundle install` in the root of project to install the jekyll remote theme gem as a dependancy
-3. Add `jekyll-remote-theme` to the list of `plugins` in your `_config.yml` file
-4. Add `remote_theme: daviddarnes/garth` to your `_config.yml` file to set the site theme
-5. Run `bundle exec jekyll serve` to build and serve your site
-6. Done! Use the example [`_config.yml`](https://github.com/daviddarnes/garth/blob/master/_config.yml) file to set site-wide options
-
-### As a Boilerplate / Fork
-
-_(deprecated, not recommended)_
-
-1. [Fork the repo](https://github.com/daviddarnes/garth#fork-destination-box)
-2. Replace the `Gemfile` with one stating all the gems used in your project
-3. Delete the following unnecessary files/folders: `CODE_OF_CONDUCT.md`, `CONTRIBUTING.md`, `LICENSE`, `screenshot.png`, `CNAME` and `garth-jekyll-theme.gemspec`
-4. Run the command `bundle install` in the root of project to install the jekyll remote theme gem as a dependancy
-5. Run `bundle exec jekyll serve` to build and serve your site
-6. Done! Use the example [`_config.yml`](https://github.com/daviddarnes/garth/blob/master/_config.yml) file to set site-wide options

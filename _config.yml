@@ -65,6 +65,6 @@ title: "Project" # Site name or title
 logo: "/assets/logo.svg" # Site logo
 # favicon: "/favicon.ico" # Uncomment to add custom favicon, or leave as is to use site logo
 description: "A project website for current research, CV in tiny robots" # Site description and default description
-url: "https://garth.darn.es" # Site url
+url: "https://coms-bc3997-sp23.github.io/website-elvinawibisono/" # Site url
 baseurl: ""
 lang: en-GB

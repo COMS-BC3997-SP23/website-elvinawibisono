@@ -18,6 +18,7 @@ exclude:
 - Gemfile
 - Gemfile.lock
 - garth-jekyll-theme.gemspec
+- logo-removebg-preview.png
 
 # 2. Installed Gems
 plugins:

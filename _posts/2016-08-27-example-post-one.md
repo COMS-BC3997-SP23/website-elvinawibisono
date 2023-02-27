@@ -1,5 +1,5 @@
 ---
-title: Week 2
+title: Week 1
 category: Weekly Progress
 ---
 

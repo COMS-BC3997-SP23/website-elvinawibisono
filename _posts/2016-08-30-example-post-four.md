@@ -1,6 +1,6 @@
 ---
-title: Week 2 
-category: Weekly progress 
+title: Week 4
+category: Weekly Progress 
 ---
 
 There is a limitation on abilities of tiny robots and their applications with complex computer vision algorithms. 

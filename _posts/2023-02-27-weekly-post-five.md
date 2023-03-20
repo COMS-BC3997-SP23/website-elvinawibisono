@@ -15,7 +15,7 @@ use the new libcamera library instead.
     -Fixed: by changing the config.txt file specifically for the camera part to be able 
     to detect Camera Module V2 
     - Was able to take picture using the libcamera 
-      <center><a href="https://ibb.co/NsVxt33"><img src="https://i.ibb.co/Xb2Xj44/group2.jpg" alt="group2" border="0"></a><br /><a target='_blank' href='https://imgbb.com/'>image hosting</a><br /></center>
+      <center><a href="https://ibb.co/NsVxt33"><img src="https://i.ibb.co/Xb2Xj44/group2.jpg" alt="group2" border="0"></a><br /></center>
 
   
 

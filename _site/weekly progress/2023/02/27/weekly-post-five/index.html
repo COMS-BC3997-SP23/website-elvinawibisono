@@ -3,7 +3,7 @@
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		
-			<title>Week 5 - Project</title>
+			<title>Week 6 - Project</title>
 		
 
 		<link rel="stylesheet" href="/website-elvinawibisono/assets/styles.css">
@@ -49,6 +49,8 @@
     
       
     
+      
+    
   </ul>
 </nav>
 
@@ -60,7 +62,7 @@
 
 	<article class="article  article--post  content  typeset">
 
-    <h1>Week 5</h1>
+    <h1>Week 6</h1>
 		
 
 <small class="small  post-meta">
@@ -68,10 +70,35 @@
     
       <span class="label  label--category">Weekly Progress</span>
     
-  &nbsp;&middot;&nbsp;<time datetime="2023-02-20T00:00:00+00:00" class="time">20 Feb 2023</time>
+  &nbsp;&middot;&nbsp;<time datetime="2023-02-27T00:00:00+00:00" class="time">27 Feb 2023</time>
 </small>
 
-    
+    <p>After being able to connect to the Wifi and SSH, I can start setting up and installing the necessary softwares for Raspberry Pi Zero 2W and Camera Module V2. For example, I will be needing OpenCV and TensorFlow for my project thus I will be installing it in Raspberry Pi. I also start setting up the hardware of the Camera. We ran into a problem setting up the camera.</p>
+
+<p>The problems of Camera Module V2:</p>
+<ul>
+  <li>Not being able to be detected
+    <ul>
+      <li>Fixed: connecting the camera with the pins correctly</li>
+    </ul>
+  </li>
+  <li>Camera is able to take a picture with raspistill, however this library is no longer used and should 
+use the new libcamera library instead.
+    <ul>
+      <li>Was able to take a picture with raspistill.</li>
+    </ul>
+  </li>
+  <li>Camera libcamera-interface = 0
+  -Fixed: by changing the config.txt file specifically for the camera part to be able 
+  to detect Camera Module V2
+    <ul>
+      <li>Was able to take picture using the libcamera
+        <center><a href="https://ibb.co/NsVxt33"><img src="https://i.ibb.co/Xb2Xj44/group2.jpg" alt="group2" border="0" /></a><br /><a target="_blank" href="https://imgbb.com/">image hosting</a><br /></center>
+      </li>
+    </ul>
+  </li>
+</ul>
+
 
 
   </article>
